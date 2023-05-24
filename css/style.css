@@ -1,0 +1,110 @@
+
+:root {
+    --darkgreen: rgba(4, 63, 63, 1);
+    --aqua: rgba(0, 226, 219, 1);
+    --purple: rgba(102, 54, 221, 1);
+    --search-bg: rgba(4, 63, 63, 0.5);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    font-size: 16px;
+    color: black;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.green {
+    color: var(--darkgreen);
+}
+
+.cont-main {
+    display: flex;
+
+}
+
+.cont-img {
+    background-image: url(../img/imgfondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--search-bg);
+    border-radius: .3rem;
+    padding: 0.6rem;
+    width: 20rem;
+}
+
+.searchbar{
+    outline: none;
+    border: none;
+    background: url('../img/loupe.svg') no-repeat;
+    background-size: 18px;
+    width: 100%;
+    padding-left: 1.5rem;
+    color: white;
+}
+
+.cont-welcome-text {
+    text-align: center;
+}
+
+.big-text {
+    color: var(--darkgreen);
+    font-size: 50px;
+}
+
+.form-text {
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+    color: var(--darkgreen);
+}
+
+.cont-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.btn-home {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--darkgreen);
+    color: white;
+    padding: .8rem 2rem;
+    border-radius: .5rem;
+    transition: ease-out 1s;
+}
+
+.btn-home:hover {
+    transform: scale(1.1);
+}
+
+.cont-registrate {
+    margin-top: 30px;
+    text-align: center;
+}
+
